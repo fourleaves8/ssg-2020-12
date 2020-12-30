@@ -7,10 +7,11 @@ function ArticleDetail__Body__init() {
 	var initialValue = body.innerHTML.trim();
 
 	var viewer = new toastui.Editor.factory({
-		el: body,
-		initialValue: initialValue,
-		viewer: true,
-		plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
+		el : body,
+		initialValue : initialValue,
+		viewer : true,
+		plugins : [ toastui.Editor.plugin.codeSyntaxHighlight ]
+
 	});
 }
 
