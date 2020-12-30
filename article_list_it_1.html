@@ -44,7 +44,7 @@
             <span>ARTICLES</span>
           </a>
           <ul>
-			<li><a href="article_list_notice_1.html" class="block"><i class="fas fa-exclamation-circle"></i> <span>NOTICE</span></a></li><li><a href="article_list_free_1.html" class="block"><i class="fas fa-comment-dots"></i> <span>FREE</span></a></li>
+			<li><a href="article_list_notice_1.html" class="block"><i class="fas fa-exclamation-circle"></i> <span>NOTICE</span></a></li><li><a href="article_list_free_1.html" class="block"><i class="fas fa-comment-dots"></i> <span>FREE</span></a></li><li><a href="article_list_it_1.html" class="block"><i class="far fa-clipboard"></i> <span>IT</span></a></li>
           </ul>
         </li>
         <li>
@@ -83,27 +83,29 @@
 <main class="flex-grow-1">
   <section class="title-bar con-min-width">
     <h1 class="con">
-      <i class="fas fa-file-invoice"></i> <span>ARTICLE DETAIL</span>
+      <i class="far fa-clipboard"></i> <span>IT</span>
     </h1>
-  </section><section class="section-1 con-min-width">
+  </section>
+<section class="section-1 con-min-width">
 	<div class="con">
-		<div class="article-detail">
+		<div class="article-list">
+			<header>
+				<div>
+					<div class="article-list__cell-id">번호</div>
+					<div class="article-list__cell-reg-date">날짜</div>
+					<div class="article-list__cell-writer">작성자</div>
+					<div class="article-list__cell-title">제목</div>
+				</div>
+			</header>
+			<main>
+				<div><div class="article-list__cell-id">1</div><div class="article-list__cell-reg-date">2020-12-30 18:30:44</div><div class="article-list__cell-writer">천승우</div><div class="article-list__cell-title"><a href="article_detail_1.html" class="hover-underline">1강, SQL SELECT</a></div></div>
+			</main>
+		</div>
 
-			<h2 class="article-detail__title">제목_0.11373988270176563</h2>
-
-			<div class="article-detail__sub-info flex">
-				<div class="article-detail__board-name">자유</div>
-				<div class="article-detail__reg-date">2020-12-27 03:30:01</div>
-				<div class="article-detail__writer">테스터2</div>
-			</div>
-
-			<div class="article-detail__body">내용_0.833444937908505</div>
-
-			<div class="article-detail__menu flex">
-				<a title ="제목_0.4857080257364623" href="article_detail_5.html" class="hover-underline ">&lt; 이전글</a>
-				<a href="article_list_free_1.html" class="hover-underline ">목록</a> 
-				<a title = "" href="article_detail_0.html" class="hover-underline none">다음글 &gt;</a>
-			</div>
+		<div class="article-page-menu">
+			<ul class="flex flex-jc-c">
+				<li><a href="article_list_it_1.html" class="flex flex-ai-c article-page-menu__link--selected">1</a></li>
+			</ul>
 		</div>
 	</div>
 </section></main>
@@ -111,18 +113,20 @@
 
 <!-- bottombar begins -->
 <footer class="bottom-bar con-min-width">
-  <div class="con flex flex-ai-c">
-    <a href="#" class="logo logo-small flex flex-ai-c">
-      <i class="fas fa-hamburger"></i>
-      <span>Look<span>U</span></span>  
-    </a>
-    <div class="bottom-bar__site-info">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ducimus, distinctio voluptatibus praesentium recusandae error. Mollitia hic natus accusamus, placeat quia dicta iusto quas eius minima aperiam assumenda repellat impedit!
-    </div>
-  </div>
+	<div class="con flex flex-ai-c">
+		<a href="#" class="logo logo-small flex flex-ai-c"> <i
+			class="fas fa-hamburger"></i> <span>Look<span>U</span></span>
+		</a>
+		<div class="bottom-bar__site-info">Lorem ipsum dolor sit amet
+			consectetur adipisicing elit. Nisi ducimus, distinctio voluptatibus
+			praesentium recusandae error. Mollitia hic natus accusamus, placeat
+			quia dicta iusto quas eius minima aperiam assumenda repellat impedit!
+		</div>
+	</div>
 </footer>
 <!-- bottombar ends -->
 
 </div>
+<script src="app.js"></script>
 </body>
 </html>
